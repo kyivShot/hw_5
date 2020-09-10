@@ -1,0 +1,320 @@
+.main{
+    padding-left: 190px;
+    padding-right: 190px;
+    display: flex;
+    background-color: #e4e2e2;
+}
+
+.main__sidemenu{
+    width: 250px;
+    height: 1000px;
+    /* background-color: teal; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__content{
+    width: 1045px;
+    height: 1000px;
+    /* background-color: tomato; */
+    margin-left: 15px;
+}
+
+.main__sidemenu__avatar{
+    width: 246px;
+    height: 246px;
+    border: 2px solid white;
+}
+
+.main__sidemenu__name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.main__sidemenu__nickname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main__sidemenu__navigation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.main__sidemenu__navigation > .nav-item{
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.main__sidemenu__navigation >.nav-item:hover{
+    width: 250px;
+    height: 25px;
+    background-color: #c1c2c4;
+    border-left-color: #3b5998;
+    border-left-width: 3px;
+    border-left-style: solid;
+    padding-top: 8px;
+}
+
+.main__sidemenu__button{
+    margin-top: 30px;
+    height: 25px;
+    width: 150px;
+    background-color:rgb(64, 221, 64);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.main__content__cover{
+    width: 1045px;
+}
+
+.main__content__buttons{
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__content_common_button{
+    height: 25px;
+    width: 80px;
+    text-align: center;
+}
+
+.main__content__send{
+    height: 25px;
+    width: 300px;
+    margin-right: 30px;
+    background-color: #0c52eb;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main__content__blocks{
+    display: flex;
+}
+
+.main__content__left{
+    width: 650px;
+    height: 500px;
+}
+
+.main__content__right{
+    width: 390px;
+    height: 500px;
+    padding-left: 31px;
+}
+
+.main__content__right__category{
+    width: 390px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.main__content__right__category > span{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.main__content__right__search{
+    width: 363px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 25px;
+    border: none;
+}
+
+.main__content__right__likes{
+    width: 390px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main__content__right__likes > span{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+}
+
+.main__content__right__invite{
+    width: 390px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.main__content__right__invite > span{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+}
+
+.main__content__right_about_header{
+    width: 390px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+.main__content__right_about_header > span{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+}
+
+.main__content__right_about__text{
+    width: 390px;
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.main__content__right_about__text > span{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+}
+
+#msgnow{
+    font-weight: bold;
+    color: green;
+}
+
+.main__content__left__status__header{
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.main__content__left__status__text > span{
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.main__content__status__header__avatar{
+    width: 25px;
+    height: 25px;
+    margin-right: 45px;
+}
+
+.main__content__left__status__form{
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.main__content__left__status__form > img{
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+}
+
+.main__content__left__status__form > span{
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.main__content__left__post{
+    height: 350px;
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 25px;
+    border: 1px solid gray;
+    flex-direction: column;
+}
+
+.main__content__left__post__header{
+    margin-top: 10px;
+    display: flex;
+    width: 500px;
+}
+
+.main__content__left__post__header > img{
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+}
+
+.main__content__left__post__header__text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.main__content__left__post__header__text_name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: blue;
+}
+
+.main__content__left__post__header__text_date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
+    color: gray;
+    margin-top: 3px; 
+}
+
+.main__content__left__post > p{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__content__left__post > img{
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 15px;
+}

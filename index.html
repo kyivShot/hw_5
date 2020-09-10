@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body> 
+    <header class="header">
+        <div class="header__menu">
+        <img src="./img/logo.png.png" alt="" class="header__img">
+        <input type="text" class="header__search" placeholder="Page Name Here">
+        <img src="./img/avatar.png" alt="" class="header__avatar">
+        <span class="header__name">Name</span>
+        <hr class="header__hr">
+        <span class="header__home">Home</span>
+        <img src="./img/friends.png" alt="" class="header__friends">
+        <img src="./img/msg.png" alt="" class="header__msg">    
+        <img src="./img/globe.png" alt="" class="header__globe">
+        <hr class="header__hr">
+        <img src="./img/globe.png" alt="" class="header__globe">
+        <img src="./img/globe.png" alt="" class="header__globe">
+        </div>
+    </header>
+    
+    <main class="main">
+       <div class="main__sidemenu">
+        <img src="./img/avatar.png" alt="" class="main__sidemenu__avatar">
+        <h1 class="main__sidemenu__name">Page Name Here</h1>
+        <span class="main__sidemenu__nickname">@PageNameHere</span>
+        
+        <nav class="main__sidemenu__navigation">
+            <a href="#" class="nav-item">Home</a>
+            <a href="#" class="nav-item">About</a>
+            <a href="#" class="nav-item">Photos</a>
+            <a href="#" class="nav-item">Likes</a>
+            <a href="#" class="nav-item">Videos</a>
+            <a href="#" class="nav-item">Posts</a>
+        </nav>
+       <button class="main__sidemenu__button">Create a Page</button>
+    </div>
+
+       <div class="main__content">
+        <img src="./img/cover.jpg" alt="" class="main__content__cover">
+
+        <section class="main__content__buttons">
+            <div>
+                <button class="main__content_common_button">Liked</button>
+                <button class="main__content_common_button">Message</button>
+                <button class="main__content_common_button">More</button>
+            </div>
+            <button class="main__content__send">Send Message</button>
+        </section>
+
+        <div class="main__content__blocks">
+            <section class="main__content__left">
+               <div class="main__content__left__status__header">
+                    <div class="main__content__left__status__text">
+                        <span>Status</span>
+                        <span>Photo/Video</span>
+                    </div>
+                    <img src="./img/avatar.png" alt="" class="main__content__status__header__avatar">
+               </div>
+               
+               <div class="main__content__left__status__form">
+                <img src="./img/avatar.png" alt="">
+                <span>Write something on this page...</span>
+               </div> 
+
+               <div class="main__content__left__post">
+                    <div class="main__content__left__post__header">
+                        <img src="./img/avatar.png" alt="">
+                        <div class="main__content__left__post__header__text">
+                           <span class="main__content__left__post__header__text_name">Page name here</span>
+                           <span class="main__content__left__post__header__text_date">1 January</span>
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vero porro eius quis rerum accusantium consectetur, recusandae, 
+                        quo delectus architecto aut molestias deserunt labore est magnam
+                        magni debitis cum accusamus commodi?
+                    </p>
+
+                    <img src="./img/cover.jpg" alt="">
+               </div>
+            </section>
+
+            <section class="main__content__right">
+                <section class="main__content__right__category">
+                    <span>Category</span>
+                </section>
+
+                <input type="text" class="main__content__right__search" placeholder="Search for posts in this page">
+
+                <section class="main__content__right__likes">
+                    <span>___people likes this</span>
+                </section>
+                
+                <section class="main__content__right__invite">
+                    <span>Invite friends to like this page</span>
+                </section>
+
+                <section class="main__content__right_about">
+                    <div class="main__content__right_about_header">
+                        <span>ABOUT</span>
+                    </div>
+                    
+                    <div class="main__content__right_about__text">
+                        <span>About me here</span>
+                        <span>About me here</span>
+                        <br>
+                        <span>Typical Replyes within the day</span>
+                        <br>
+                        <span id="msgnow">Message now</span>
+                    </div>
+                </section>
+
+            </section>
+        </div>
+
+       </div>
+    </main>
+</body>
+</html>
